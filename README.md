@@ -2,10 +2,6 @@
 
 A static agency website containerized using **Docker, Nginx, and Docker Compose**. This project demonstrates how to package and run a website in a container and use a bind mount to reflect host-side file changes.
 
-## 🌐 Live Website
-
-[DevScaleSolution](https://devscalesolution.pages.dev/)
-
 ## 🛠️ Technologies Used
 
 - **Docker** — Containerization
