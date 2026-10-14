@@ -1,0 +1,16 @@
+{
+  "name": "devscalesolution",
+  "version": "1.0.0",
+  "description": "Marketing website for DevScaleSolution — static HTML, CSS and vanilla JavaScript. No build step.",
+  "private": true,
+  "license": "UNLICENSED",
+  "homepage": "https://devscalesolution.pages.dev/",
+  "scripts": {
+    "start": "npx --yes serve . -l 3000",
+    "start:python": "python3 -m http.server 3000",
+    "validate": "node scripts/validate.js"
+  },
+  "dependencies": {
+    "validate": "^5.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+services:
+  website:
+    build:
+      context: .
+      dockerfile: devscale.Dockerfile
+    image: devscale-website
+    ports:
+      - '8080:80'
+    volumes:
+     - ./html:/usr/share/nginx/html #use bindmount Change Live in Host Matchine 
+    restart: unless-stopped
+  
